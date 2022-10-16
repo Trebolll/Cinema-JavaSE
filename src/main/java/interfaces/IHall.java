@@ -1,12 +1,17 @@
 package interfaces;
 
+import objects.Veiwer;
+
 import java.util.ArrayList;
 
 public interface IHall {
 
-    Integer getNumber();
+    int getNumber();
 
-    ArrayList<Integer> totalSeats();
 
-    void addViewer();
+
+    void addViewer(Veiwer veiwer);
+
+
+
 }

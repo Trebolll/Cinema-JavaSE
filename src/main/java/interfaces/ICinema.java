@@ -1,10 +1,9 @@
 package interfaces;
 
-interface ICinema {
+public interface ICinema {
 
     String getName();
 
-
-    void playFilm();
+    void whatMovieIsOnNow();
 
 }

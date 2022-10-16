@@ -1,8 +1,15 @@
 package interfaces;
 
+import objects.Veiwer;
+
 public interface ICashbox {
 
-    Integer getCost();
+    int getCost();
+
+    int getTotalSeats();
+
+    void buyTicket(IHall hall, Veiwer veiwer);
+
 
 
 
