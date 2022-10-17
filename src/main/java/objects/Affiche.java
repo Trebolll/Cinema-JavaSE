@@ -37,7 +37,7 @@ public class Affiche implements IAffiche {
     @Override
     public void seeAffiche() {
         for (IFilm films:totalFilm){
-            System.out.println( films.getName());
+            System.out.println("Фильм: " + films.getName());
         }
     }
 }

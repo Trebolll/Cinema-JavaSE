@@ -53,6 +53,7 @@ public class Main {
 
 
         cinema.whatMovieIsOnNow();
+        System.out.println(cashbox.getTotalCash());
         affiche.seeAffiche();
 
 

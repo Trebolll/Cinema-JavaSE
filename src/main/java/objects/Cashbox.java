@@ -14,8 +14,8 @@ import lombok.Setter;
 public class Cashbox implements ICashbox {
 
     private int cost = 350;
-
     private int totalSeats;
+    private int totalCash;
 
     @Override
     public void buyTicket(IHall hall, Veiwer veiwer) {
@@ -25,9 +25,10 @@ public class Cashbox implements ICashbox {
             return;
         }
         hall.addViewer(veiwer);
-        totalSeats = totalSeats -1;
+        totalSeats = totalSeats - 1;
+        totalCash = totalCash + cost;
+
         System.out.println(veiwer.getName() + " купил/а билет в зал:№" + hall.getNumber() + ", цена " + getCost() + " рублей");
-
-
     }
+
 }

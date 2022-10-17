@@ -15,11 +15,7 @@ import java.util.ArrayList;
 public class Hall implements IHall {
     private ArrayList<Veiwer> veiwers = new ArrayList<>();
 
-
     private int number;
-
-    //  private int totalSeats;
-
 
     @Override
     public void addViewer(Veiwer veiwer) {

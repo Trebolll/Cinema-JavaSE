@@ -8,6 +8,9 @@ public interface ICashbox {
 
     int getTotalSeats();
 
+    int getTotalCash();
+
+
     void buyTicket(IHall hall, Veiwer veiwer);
 
 
